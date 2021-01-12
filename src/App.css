@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.page-container {
+  width: 100%;
+  display: flex;
+  background-image: url("./assets/icons/Group406.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.container {
+  padding: 5%;
+}
+.form-input-field {
+  width: 500px;
+  padding-bottom: 20px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

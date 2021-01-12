@@ -1,0 +1,9 @@
+.register-container {
+  padding: 5%;
+}
+.register-form {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

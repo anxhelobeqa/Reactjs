@@ -1,0 +1,22 @@
+.content {
+  padding: 5%;
+  padding-top: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.service-button {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  height: 200px;
+  padding: 10px;
+}
+.service-button span {
+  text-transform: none;
+}
+
+.service-button svg {
+  margin: auto;
+}

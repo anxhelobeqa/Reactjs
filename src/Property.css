@@ -1,0 +1,27 @@
+.property-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.property-button img {
+  height: 150px;
+}
+
+.property-button span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content {
+  padding: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.content button {
+  background-color: #f0f8ff;
+}
